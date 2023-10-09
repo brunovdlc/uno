@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>VTO Cartas - BrunoT (202020)</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="https://u.cubeupload.com/BrunoT/558cartavto.jpg" type="image/png">
+<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+
+
+<body translate="no">
+  <audio src="https://freesound.org/data/previews/536/536782_1415754-lq.mp3" type="audio/mp3" id="flipCard"></audio>
+
+<audio src="https://freesound.org/data/previews/521/521639_7724198-lq.mp3" type="audio/mp3" id="win"></audio>
+
+<audio src="https://freesound.org/data/previews/362/362205_6629901-lq.mp3" type="audio/mp3" id="lose"></audio>
+
+<section class="stage">
+   <div class="top">
+      <h1 class="superTrunfo">VTO -  A Batalha dos Monstros </h1>
+      
+      <div class="placar">
+         <div class="pontuacao">
+            <h2>EU</h2>
+            <p class="digito" id="placarJogador">0</p>
+            <h2>VTO</h2>
+            <p class="digito" id="placarMaquina">0</p>
+         </div>
+         <div class="cartasNoDeck">
+            <p>xat.com/VTO<p>
+            </div><span class="cards"></span>
+         </div>
+      </div>
+   </div>
+   
+   <div class="split">
+      <div class="flip-card1">
+  <div class="flip-card-inner1">
+    <div class="flip-card-inner-back1">
+      <img class="cardImageBack1" src="https://u.cubeupload.com/BrunoT/558cartavto.jpg" alt="Card Back" >
+    </div>
+    <div class="flip-card-inner-front1">
+      <h1 class="frontCardTitulo1">Bruno</h1>
+         <img class="frontCardImage1" src="" alt="">
+      <ul class="frontCardAtributos1">
+         <li class="atributofofoca1">Fofoca <span class="fofoca1">5</span></li>
+         <li class="atributoinveja1">Inveja <span class="inveja1">5</span></li>
+         <li class="atributobeleza1">Beleza <span class="beleza1">5</span></li>
+         <li class="atributotalaricagem1">Talaricagem <span class="talaricagem1">5</span></li>
+         
+      </ul>
+    </div>
+  </div>
+</div>
+      
+      <div class="comandos">
+         <button class="sortear" onclick="sortearCarta()">Click aqui para sortear carta</button>
+         <div class="options"></div>
+         
+      </div>
+      
+      <div class="flip-card2">
+  <div class="flip-card-inner2">
+    <div class="flip-card-inner-back2">
+      <img class="cardImageBack2" src="https://u.cubeupload.com/BrunoT/558cartavto.jpg" alt="Card Back" >
+    </div>
+    <div class="flip-card-inner-front2">
+      <h1 class="frontCardTitulo2">Bruno</h1>
+         <img class="frontCardImage2" src="" alt="">
+      <ul class="frontCardAtributos2">
+         <li class="atributofofoca2">Fofoca <span class="fofoca2">5</span></li>
+         <li class="atributoinveja2">Inveja <span class="inveja2">5</span></li>
+         <li class="atributobeleza2">Beleza <span class="beleza2">5</span></li>
+         <li class="atributotalaricagem2">Talaricagem <span class="talaricagem2">5</span></li>
+         
+      </ul>
+    </div>
+  </div>
+</div>
+      
+   </div>
+   
+   
+   
+   
+<p class="credits">xat.com/VTO <span class="love">👑</span> by BrunoT (202020)</p>
+   
+</section>
+  <script src="js/cartas.js"></script>
+      <script id="rendered-js" ></script>
+      <script src="js/game.js"></script>
+
+
+
+  
+</body>
+
+</html>
